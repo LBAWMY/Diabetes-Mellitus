@@ -1,6 +1,6 @@
 # 天池精准医疗大赛——人工智能辅助糖尿病遗传风险预测
 
-这是天池平台上的一道赛题：[链接](https://tianchi.aliyun.com/competition/introduction.htm?raceId=231638)。
+这是天池平台上的一道关于精准医疗方面的赛题：[链接](https://tianchi.aliyun.com/competition/introduction.htm?raceId=231638)。
 
 ## 解决方案
 
@@ -24,11 +24,11 @@
 
 - `xgb_hp95.py`，训练xgboost分类器，判断'id'的`血糖`是否大于95百分位数
 - `xgb_lp30.py`，训练xgboost分类器，判断'id'的`血糖`是否小于30百分位数
-- 'series_model.py',训练一系列分类器，包括MLP,RF,XGB等，模型均保持在model/classification文件夹下
-- 'level_elimination.py',加载一些列保存的分类模型，对test数据集进行瀑布流筛选，保留top150
+- `series_model.py`,训练一系列分类器，包括MLP,RF,XGB等，模型均保持在`model/classification`文件夹下
+- `level_elimination.py`,加载一些列保存的分类模型，对test数据集进行瀑布流筛选，保留top150
 
 ### MLP_regression
-- 'yy_tensorflow.py',训练MLP回归模型，并同时对测试集进行回归预测
+- `yy_tensorflow.py`,训练MLP回归模型，并同时对测试集进行回归预测
 
 
 ### model
