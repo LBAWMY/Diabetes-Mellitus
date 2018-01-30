@@ -18,7 +18,7 @@
 ### 数据分析与特征提取
 
 - `feature_extract.py`,提取特征，在`data`目录下生成`feature`目录，存放特征文件
-- 'offline_data_extract.py',提取线下训练与测试集
+- `offline_data_extract.py`,提取线下训练与测试集
 
 ### classification
 
@@ -33,8 +33,8 @@
 
 ### model
 
-- classification 文件夹保存分类器的各类模型
-- regression 文件夹保存回归其的各类模型(lightdm模型除外)
+- `classification` 文件夹保存分类器的各类模型
+- `regression` 文件夹保存回归其的各类模型(lightdm模型除外)
 
 
 ### regression
